@@ -9,8 +9,8 @@ const config = require('./config');
 const { Message, OpType, Location } = require('../curve-thrift/line_types');
 //let exec = require('child_process').exec;
 
-const  myBot  = ['u383553c939303c1adb76fb4e6ac988ca,',u5a8f1f79740e3dc876a13ab7f7381340 ']
-const banList = [];//Banned list
+const    myBot    = [ 'u383553c939303c1adb76fb4e6ac988ca']
+const  banList  = []; // รายการที่ถูกแบน
 var groupList = new Array();//Group list
 var vx = {};var midnornama,pesane,kickhim;var waitMsg = "no";//DO NOT CHANGE THIS
 const imgArr = ['png','jpg','jpeg','gif','bmp','webp'];//DO NOT CHANGE THIS
